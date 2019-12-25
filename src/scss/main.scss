@@ -1,4 +1,4 @@
-$font-stack:    Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
 body {
@@ -13,7 +13,9 @@ nav {
     list-style: none;
   }
 
-  li { display: inline-block; }
+  li {
+    display: inline-block;
+  }
 
   a {
     display: block;
@@ -21,8 +23,10 @@ nav {
     text-decoration: none;
   }
 }
-.alert, .warning {
-  ul, p {
+.alert,
+.warning {
+  ul,
+  p {
     margin-right: 0;
     margin-left: 0;
     padding-bottom: 0;
